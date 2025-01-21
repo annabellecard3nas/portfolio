@@ -1,0 +1,171 @@
+.appli {
+  overflow: hidden;
+}
+.appli .topPage {
+  background-color: #F2EFEF;
+  height: 97vh;
+  width: 100%;
+}
+.appli .topPage .entete {
+  height: 2rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 4px solid #A8A8A8;
+}
+.appli .topPage .entete .logo {
+  font-size: 1.2rem;
+  font-family: "inter", "Helvetica Neue", "Arial";
+  font-style: italic;
+  font-weight: 500;
+  color: #707070;
+  margin-left: 1rem;
+}
+.appli .topPage .entete .menu ul {
+  display: flex;
+  list-style: none;
+  gap: 1.3rem;
+  margin-right: 1rem;
+}
+.appli .topPage .entete .menu ul li a {
+  text-decoration: none;
+  color: #707070;
+  font-size: 0.7rem;
+  font-family: "Helvetica Neue", "inter", "Arial";
+}
+.appli .topPage .aPropos {
+  height: 90%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #8E8E8E;
+}
+.appli .topPage .aPropos .flextoppage {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-around;
+}
+.appli .topPage .aPropos .flextoppage .infoAProposDeMoi h1 {
+  font-family: "Helvetica Neue", "inter", "Arial";
+  padding-bottom: 0.5rem;
+}
+.appli .topPage .aPropos .flextoppage .infoAProposDeMoi h3 {
+  font-family: "Helvetica Neue", "inter", "Arial";
+  font-weight: 400;
+  font-size: 1.2rem;
+  padding-bottom: 1rem;
+}
+.appli .topPage .aPropos .flextoppage .infoAProposDeMoi .descriptionMoi {
+  background-color: #ffffff;
+  padding: 1rem;
+  border-radius: 10px;
+  font-family: "inter", "Helvetica Neue", "Arial";
+}
+.appli .topPage .aPropos .flextoppage .infoAProposDeMoi .descriptionMoi h5 {
+  font-weight: 500;
+  font-size: 1rem;
+}
+.appli .topPage .aPropos .flextoppage .infoAProposDeMoi .descriptionMoi p {
+  font-size: 0.8rem;
+}
+.appli .topPage .aPropos .flextoppage .enteteimg {
+  font-family: "Helvetica Neue", "inter", "Arial";
+  font-size: 4rem;
+}
+.appli .competences {
+  height: 100vh;
+  width: 100%;
+  font-family: "inter", "Helvetica Neue", "Arial";
+  margin-bottom: 5rem;
+}
+.appli .competences h1 {
+  font-size: 5rem;
+  padding-left: 4rem;
+  font-style: italic;
+}
+.appli .competences h2 {
+  font-size: 1.5rem;
+  font-weight: 300;
+  padding-bottom: 2rem;
+  padding-left: 4rem;
+}
+.appli .competences .cartesComp {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+.appli .competences .cartesComp .cartes {
+  width: 28%;
+  height: 26rem;
+  background-color: #ffffff;
+  border-radius: 30px;
+  padding: 2rem;
+  text-align: center;
+}
+.appli .projet {
+  height: 100vh;
+  width: 100%;
+  font-family: "inter", "Helvetica Neue", "Arial";
+}
+.appli .projet .titre {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 4rem;
+}
+.appli .projet .titre .gauche h1 {
+  font-size: 5rem;
+  font-style: italic;
+}
+.appli .projet .titre .gauche h2 {
+  font-size: 1.5rem;
+  font-weight: 300;
+  padding-bottom: 2rem;
+  text-align: end;
+}
+.appli .projet .SecCarteProj {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.appli .projet .SecCarteProj .carteProj {
+  width: 5rem;
+  height: 10rem;
+  background-color: #A8A8A8;
+}
+.appli footer {
+  position: relative;
+  font-family: "inter", "Helvetica Neue", "Arial";
+  background-color: black;
+  height: 49vh;
+}
+.appli footer .getInTouch {
+  padding: 2rem;
+}
+.appli footer .getInTouch h2 {
+  color: #A8A8A8;
+}
+.appli footer .getInTouch ul li a {
+  color: #A8A8A8;
+  text-decoration: none;
+}
+.appli footer h1 {
+  color: #A8A8A8;
+  font-size: 13rem;
+  font-style: italic;
+  position: absolute;
+  right: 2rem;
+  bottom: 0rem;
+}
+.appli footer .credit {
+  width: 100%;
+  text-align: center;
+  color: #ffffff;
+  position: absolute;
+  bottom: 0rem;
+  border-top: 5px solid #FFF;
+  font-weight: 300;
+}/*# sourceMappingURL=App.css.map */

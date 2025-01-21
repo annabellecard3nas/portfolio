@@ -1,0 +1,14 @@
+html{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-size: clamp(16px, 0.5rem + 1vw, 24px);
+  background-color: #F8F8F8;
+
+}
+
+*, *::after, *::before {
+  box-sizing: inherit;
+  margin: 0px;
+  padding: 0px;
+}
