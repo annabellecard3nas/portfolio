@@ -1,0 +1,27 @@
+[
+    {
+        "action": "Retrait de fonds via INTERAC",
+        "temps": "7 mois",
+        "montant": "3,530.49 $"
+    },
+    {
+        "action": "Vendu 463.640216 XRP à 0.762430 $/XRP",
+        "temps": " 20 jours",
+        "montant": "353.49 $"
+    },
+    {
+        "action": "Acheté 143.657520 à 1.39 $/XRP",
+        "temps": "3 ans",
+        "montant": "200 $"
+    },
+    {
+        "action": "Acheté 131870450 à 1.52 $/XRP",
+        "temps": "3 ans",
+        "montant": "200 $"
+    },
+    {
+        "action": "Ajout de fonds via INTERAC",
+        "temps": "4 ans",
+        "montant": "4,000 $"
+    }
+]

@@ -1,0 +1,43 @@
+.projet{
+    height: 100vh;
+    width: 100%;
+    font-family: 'inter','Helvetica Neue','Arial';
+    .titre{
+      display: flex;
+      justify-content: flex-end;
+      padding-right: 4rem;
+      .gauche{
+        h1{
+          font-size: 5rem;
+          font-style: italic;
+        }
+        h2{
+          font-size: 1.5rem;
+          font-weight: 300;
+          padding-bottom: 2rem;
+          text-align:end ;
+        }
+      }
+    }
+
+    .SecCarteProj{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      .carteProj{
+        width: 90%;
+        height: 20rem;
+        background-color: #A8A8A8;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        
+
+        .desCarte{
+          background-color: #F2EFEF;
+          height: 8rem;
+
+        }
+      }
+    }
+  }

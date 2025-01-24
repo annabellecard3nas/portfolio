@@ -1,0 +1,52 @@
+.contacter{
+
+    footer{
+        position: relative;
+        font-family: 'inter','Helvetica Neue','Arial';
+        background-color: black;
+        height: 49vh;
+  
+        .getInTouch{
+          padding: 2rem;
+          h2{
+            color: #A8A8A8;
+          }
+          ul{
+            li{
+              a{
+                color: #A8A8A8;
+                text-decoration: none;
+              }
+            }
+          }
+        }
+  
+        .icons{
+          padding-left: 1.7rem;
+          width: 10rem;
+          display: flex;
+          justify-content: space-around;
+        }
+  
+        h1{
+          color: #A8A8A8;
+          font-size: 13rem;
+          font-style: italic;
+          position:absolute;
+          right: 2rem;
+          bottom: 0rem;
+          
+        }
+  
+        .credit{
+          width: 100%;
+          text-align: center;
+          color: #ffffff;
+          position: absolute;
+          bottom: 0rem;
+          border-top:5px solid #FFF ;
+          font-weight: 300;
+  
+        }
+      }
+}

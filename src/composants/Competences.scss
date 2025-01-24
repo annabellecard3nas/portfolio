@@ -1,0 +1,33 @@
+.competences{
+    height: 100vh;
+    width: 100%;
+    font-family: 'inter','Helvetica Neue','Arial';
+    margin-bottom: 5rem;
+    h1{
+      font-size: 5rem;
+      padding-left: 4rem;
+      font-style: italic;
+    }
+    h2{
+      font-size: 1.5rem;
+      font-weight: 300;
+      padding-bottom: 2rem;
+      padding-left: 4rem;
+    }
+
+    .cartesComp{
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+     
+      .cartes{
+        width: 28%;
+        height: 26rem;
+        background-color: #ffffff;
+        border-radius: 30px;
+
+        padding: 2rem;
+        text-align: center;
+      }
+    }
+  }
