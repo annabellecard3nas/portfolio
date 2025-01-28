@@ -1,8 +1,9 @@
 
 import "./Projets.scss";
-import Projet from "./Projet";
+import Unprojet from "./Unprojet";
+import LesProjets from "./data/Projet.json"
 
-function Projets({ mesProjets }) {
+function Projets() {
 
   return (
     <div className="projet" id="projets">
@@ -13,15 +14,13 @@ function Projets({ mesProjets }) {
         </div>
         </div>
         <div className="SecCarteProj">
-        <div className="carteProj">
-            <div className="desCarte">
-              {
-                MesProjets.map(proj => <Projet
-                
-                                        />)
-              }
-            </div>
-        </div>
+            
+              {LesProjets.map(proj=> <Unprojet
+              key={proj.id}
+              nom={proj.nom}
+              description={proj.description}
+              />)}
+
         </div>
     </div>
   );

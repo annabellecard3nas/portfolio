@@ -14,12 +14,41 @@
             align-items: center;
             width: 100%;
             justify-content: space-around;
+
+
+            
             
 
             .infoAProposDeMoi{
+              position: relative;
+
+              .carre{
+                position: absolute;
+                height: 4rem;
+                width: 5rem;
+                z-index: 1;
+                background-color: #8f8f8f7a;
+                top: 15rem;
+                left: -1rem;
+                border-radius: 5px;
+                .minicarrelL{
+                  position: absolute;
+                  height: 2.3rem;
+                  width: 3rem;
+                  z-index: 1;
+                  background-color: #83838381;
+                  top: -1rem;
+                  left: -1rem;
+                  z-index: 2;
+                  backdrop-filter: blur(3px);
+                  border-radius: 5px;
+                }
+              }
+
               h1{
                 font-family: 'Helvetica Neue','inter','Arial';
                 padding-bottom: 0.5rem;
+                
               }
               h3{
                 font-family: 'Helvetica Neue','inter','Arial';
@@ -28,27 +57,106 @@
                 padding-bottom: 1rem;
               }
               .descriptionMoi{
-                background-color: #ffffff;
+                background-color: #ffffffbc;
+                backdrop-filter: blur(4px);
+                min-height: 12rem;
                 padding: 1rem;
+                position: relative;
+                padding-bottom: 1rem;
+                z-index: 4;
                 border-radius: 10px;
                 font-family: 'inter','Helvetica Neue','Arial';
                 
                 h5{
                   font-weight: 500;
                   font-size: 1rem;
+                  padding-bottom: 0.5rem;
                 }
 
                 p{
                   font-size: 0.8rem;
                 }
+
+                button{
+                  background-color: #B5B5B5;
+                  border-radius: 50px ;
+                  border:0.5px solid #ffffff;
+                  height: 2rem;
+                  width: 7.5rem;
+                  color: #ffffff;
+                  font-size: 0.7rem;
+                  font-weight: bold;
+                  position: absolute;
+                  top: 11rem;
+                  left: 18rem;
+                }
+              }
+
+              .carreD{
+                position: absolute;
+                height: 4rem;
+                width: 5rem;
+                background-color: #8f8f8f7a;
+                backdrop-filter: blur(2px);
+                top: 3.3rem;
+                right: -1rem;
+                z-index: 5;
+                border-radius: 5px;
+                .minicarreD{
+                  position: absolute;
+                  height: 2rem;
+                  width: 2.5rem;
+                  z-index: 6;
+                  background-color: #8f8f8f7a;
+                  top: 2.5rem;
+                  right: 3rem;
+                  backdrop-filter: blur(2px);
+                  border-radius: 5px;
+                }
               }
             }
+
+            
 
             .enteteimg{
               font-family: 'Helvetica Neue','inter','Arial';
               font-size: 4rem;
             
             }
+          };
+          
+    @media screen and (max-width: 992px) {
+
+      .flextoppage{
+      .infoAProposDeMoi{
+        width: 80%;
+        h1{
+          font-size: clamp(1.5rem, 5vw, 3.3rem);
+        }
+        h3{
+          font-size: clamp(1.5rem, 5vw, 2.5rem);
+          
+        }
+
+        .descriptionMoi{
+
+         h5{
+          font-size: 1.7rem;}
+
+          p{
+            font-size: 1.5rem;
           }
+          button{
+            width:40%;
+            height: 2.5rem;
+            font-size: 1.5rem;
+          }
+        }
+      }
+    }
+      .enteteimg{
+        display: none;
+      }
+    }
 }
   

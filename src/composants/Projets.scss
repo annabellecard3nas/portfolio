@@ -1,5 +1,4 @@
 .projet{
-    height: 100vh;
     width: 100%;
     font-family: 'inter','Helvetica Neue','Arial';
     .titre{
@@ -24,20 +23,6 @@
       display: flex;
       flex-direction: column;
       align-items: center;
-      .carteProj{
-        width: 90%;
-        height: 20rem;
-        background-color: #A8A8A8;
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-end;
-        
-
-        .desCarte{
-          background-color: #F2EFEF;
-          height: 8rem;
-
-        }
-      }
+      
     }
   }

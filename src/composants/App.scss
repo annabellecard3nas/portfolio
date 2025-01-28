@@ -1,45 +1,108 @@
-.appli{
+.appli {
   overflow: hidden;
-  .topPage{
+  .topPage {
     background-color: #F2EFEF;
     height: 97vh;
     width: 100%;
-      .entete{
-        height: 2rem;
-        width: 100%;
-        display: flex;
 
-        align-items: center;
-        justify-content: space-between;
-        border-bottom: 4px solid #A8A8A8;
+    .entete {
+      height: 4rem;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 4px solid #A8A8A8;
+      position: relative;
 
-        .logo{
-          font-size: 1.2rem;
-          font-family: 'inter','Helvetica Neue','Arial';
-          font-style: italic;
-          font-weight:500;
-          color: #707070;
-          margin-left: 1rem;
-        }
-        .menu{
-          ul{
-          
-            display: flex;
-            list-style: none;
-            gap: 1.3rem;
-            margin-right: 1rem;
-            li{
-              a{
-                text-decoration: none;
-                color: #707070;
-                font-size: 0.7rem;
-                font-family: 'Helvetica Neue','inter','Arial';
-              }
+      .logo {
+        font-size: 1.7rem;
+        font-family: 'Inter', 'Helvetica Neue', 'Arial';
+        font-style: italic;
+        font-weight: 500;
+        color: #707070;
+        margin-left: 1rem;
+      }
+
+      .menu {
+        ul {
+          /* Default desktop styles */
+          display: flex;
+          list-style: none;
+          gap: 1.3rem;
+          margin-right: 1rem;
+
+          li {
+            a {
+              text-decoration: none;
+              color: #707070;
+              font-size: 0.7rem;
+              font-family: 'Helvetica Neue', 'Inter', 'Arial';
             }
           }
         }
+
+        button {
+          display: none; /* Hide burger menu button on larger screens */
+        }
       }
     }
-  
-  
+  }
+
+  /* Media queries for smaller screens */
+  @media screen and (max-width: 992px) {
+    .topPage {
+      .entete {
+        .menu {
+          button {
+            display: block;
+            position: absolute;
+            top: 1rem;
+            right: 1rem;
+            z-index: 10;
+            background-color: #ffffff;
+            border: none;
+            padding: 0.4rem;
+            border-radius: 5px;
+          }
+
+          ul {
+            position: absolute;
+            top: 0;
+            right: -25rem; /* Initially hidden off-screen */
+            background-color: #707070c8;
+            width: 25rem;
+            height: 100vh;
+            flex-direction: column;
+            align-items: flex-end;
+            justify-content: center;
+            padding-right: 2rem;
+            z-index: 7;
+            backdrop-filter: blur(3px);
+            opacity: 0; /* Hidden by default */
+            transform: translateX(100%); /* Slide in from the right */
+            transition: transform 0.3s ease, opacity 0.3s ease-in; /* Smooth transition */
+
+            li {
+              margin: 1rem 0;
+              a {
+                text-decoration: none;
+                color: #ffffff;
+                font-size: 1.5rem;
+              }
+            }
+          }
+
+          &.open ul {
+            opacity: 1; /* Make it visible */
+            transform: translateX(0); /* Slide into view */
+            right: -1rem; /* Align to the right edge */
+            
+          }
+
+           /* When menu is closed, slide back to the right */
+           
+        }
+      }
+    }
+  }
 }

@@ -1,0 +1,22 @@
+[
+    {
+        "titre": "Languages",
+        "php":"php",
+        "savascript": "javascript",
+        "c#":"C#",
+        "csshtml":"CSS/HTML",
+        "mysql":"MySQL",
+        "wordpresss":"Wordpresss"
+    },
+    {
+        "titre": "Frameworks",
+        "react":"react"
+    },
+    {
+        "titre": "Autre",
+        "maya":"maya",
+        "photoshop":"photoshop",
+        "after-effect":"after effect",
+        "touchdesigner":"touchdesigner"
+    }
+]
