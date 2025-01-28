@@ -17,7 +17,7 @@ function Apropos(){
               <div className="descriptionMoi">
                 <h5>À propos de moi</h5>
                 <p>Je suis une développeuse front-end passionnée par la création de sites </p>
-                <button>contactez moi</button>
+                <a href="mailto:alacombecardenas@gmail.com"><button>contactez moi</button></a>
               </div>
 
               <div className="carreD"> 

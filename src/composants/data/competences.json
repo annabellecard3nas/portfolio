@@ -1,22 +1,21 @@
 [
     {
         "titre": "Languages",
-        "php":"php",
-        "savascript": "javascript",
-        "c#":"C#",
-        "csshtml":"CSS/HTML",
-        "mysql":"MySQL",
-        "wordpresss":"Wordpresss"
+        "items": ["PHP", 
+                 "JavaScript", 
+                 "MySQL", 
+                 "C#",
+                 "CSS/HTMl"]
     },
     {
         "titre": "Frameworks",
-        "react":"react"
+        "items": ["React"]
     },
     {
         "titre": "Autre",
-        "maya":"maya",
-        "photoshop":"photoshop",
-        "after-effect":"after effect",
-        "touchdesigner":"touchdesigner"
+        "items": ["maya", 
+                 "photoshop",
+                  "after effect", 
+                  "touchdesigner"]
     }
 ]

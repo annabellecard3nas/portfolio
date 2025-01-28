@@ -1,5 +1,5 @@
 .competences{
-    height: 100vh;
+    min-height: 100vh;
     width: 100%;
     font-family: 'inter','Helvetica Neue','Arial';
     margin-bottom: 5rem;
@@ -28,6 +28,45 @@
 
         padding: 2rem;
         text-align: center;
+        h3{
+          padding-bottom: 1rem;
+        }
       }
     }
-  }
+    @media screen and (max-width: 992px){
+
+      h1{
+        font-size: clamp(1rem, 11vw, 10rem);
+      }
+      h2{
+        font-size: clamp(0.5rem, 11vw, 1.5rem);
+      }
+
+      .cartesComp {
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 2rem;
+
+        .cartes{
+          width: 80%;
+          height: 18rem;
+
+          
+        }
+      }
+    }
+
+    @media screen and (max-width: 500px){
+      text-align: center;
+      h1{
+        padding-left: 0px;
+      }
+      h2{
+        padding: 1rem;
+      }
+      
+    }
+}

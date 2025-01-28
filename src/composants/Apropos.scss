@@ -15,10 +15,6 @@
             width: 100%;
             justify-content: space-around;
 
-
-            
-            
-
             .infoAProposDeMoi{
               position: relative;
 
@@ -135,7 +131,8 @@
         }
         h3{
           font-size: clamp(1.5rem, 5vw, 2.5rem);
-          
+          z-index: 6;
+          position: relative;
         }
 
         .descriptionMoi{
@@ -144,18 +141,34 @@
           font-size: 1.7rem;}
 
           p{
-            font-size: 1.5rem;
+            font-size:clamp(0.5rem, 5vw, 1.1rem);
           }
           button{
             width:40%;
             height: 2.5rem;
-            font-size: 1.5rem;
+            font-size: 1.5rem ;
           }
         }
       }
     }
       .enteteimg{
         display: none;
+      }
+    }
+
+    @media screen and (max-width: 500px){
+      .flextoppage{
+        .infoAProposDeMoi{
+  
+          .descriptionMoi{
+            button{
+              width:40%;
+              height: 2.5rem;
+              font-size: 1rem ;
+              left: 10rem;
+            }
+          }
+        }
       }
     }
 }
