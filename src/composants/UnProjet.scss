@@ -1,17 +1,40 @@
 .Unprojet{
     width: 85%;
-    height: 20rem;
+    height: 25rem;
     background-color: #A8A8A8;
     margin-bottom: 2rem;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-
+    background-repeat: none;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
     .secDesc{
-      background-color: #FFF;
-      height: 8rem;
-      
+      background-color: #ffffffbf;
+      backdrop-filter: blur(5px);
+      min-height: 8rem;
+      padding: 0.8rem;
       margin: 0.3rem;
+      border-radius: 15px;
+      h2{
+        font-style: italic;
+      }
+      p{
+        font-size: 0.8rem;
+        color: #4f4f4f;
+      }
+      a{
+        padding-top: 1rem;
+        text-decoration: none;
+        color: #000000;
+        font-size: 20px;
+        font-weight: 700;
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+      }
     }
     
   }

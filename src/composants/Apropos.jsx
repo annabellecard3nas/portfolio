@@ -28,7 +28,8 @@ function Apropos(){
             
 
             <div className="enteteimg">
-              <h1>Hi,i'm</h1>
+              <h1>Bonjour,</h1>
+              <h3>je suis</h3>
             </div>
         </div>
 

@@ -19,6 +19,8 @@ function Projets() {
               key={proj.id}
               nom={proj.nom}
               description={proj.description}
+              image={proj.image}
+              url={proj.url}
               />)}
 
         </div>

@@ -1,15 +1,30 @@
 [
     {
         "id": "id",
-        "nom": "Wordpress",
-        "description": "Projet fait avec wordpress ",
-        "image": "",
-        "url":""
+        "nom": "Coffee shop/wordpress",
+        "description": "Ce projet personnel consiste à développer un site WordPress pour un coffee shop. Pour sa réalisation, j'ai utilisé WordPress comme CMS, ainsi que JavaScript, PHP et MySQL pour apporter des fonctionnalités dynamiques. Ce projet met en avant non seulement l'aspect design, avec une interface simple et harmonieuse, mais aussi la programmation, en veillant à assurer une navigation fluide et une esthétique en accord avec les teintes chaleureuses du café.",  
+        "image": "/images/coffeeshop.png", 
+        "url":"https://youtu.be/ZOmnUNL5ZV4"
     },
     {
         "id": "id",
-        "nom": "nom",
-        "description": "desc",
-        "url":""
+        "nom": "Projet réactif en web / bande dessinée",
+        "description": "Projet web pour le cours d'interfaces web réactives et animées. Ce projet a été réalisé en groupe de deux étudiants. Mon collègue et moi avons utilisé React pour son développement, ainsi que Firebase comme base de données. Le design a été conçu par mon collègue Ton Tony, avec mon aide pour le concept de ce dernier.",
+        "image": "/images/reactBd.png",
+        "url":"https://tp2-jse-annabelle-tony.web.app/ "
+    },
+    {
+        "id": "id",
+        "nom": "Page web pour un club de voyage/wordpress",
+        "description": "Page web d'un club de voyage permettant aux utilisateurs de consulter les destinations les plus populaires ou de découvrir celles qui correspondent à leurs demandes et besoins. Pour ce projet, j'ai utilisé WordPress avec le langage PHP et la base de données MySQL. Cependant, pour son design j'ai utilisé CSS/SASS.",
+        "image": "/images/voyage.png",
+        "url":"https://youtu.be/Yq-AEqLZZRs"
+    },
+    {
+        "id": "id",
+        "nom": "Jeu3D",
+        "description": "Jeu 3D créé dans le cadre du cours de jeux de ma troisième session de technique. L'objectif était de concevoir un jeu vidéo d'horreur qui génère du stress chez le joueur tout en restant amusant et rapide à jouer. Le langage de programmation utilisé est le C# avec le logiciel Unity.",
+        "image": "/images/JeuLaby.png",
+        "url":"https://xbubble-teax.itch.io/jeu-3d"
     }
 ]
