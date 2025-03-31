@@ -23,7 +23,7 @@ function Contacter(){
           </div>
 
           <h1>Annabelle</h1>
-          <div className="credit"><p>credit a</p></div>
+          <div className="credit"><p>Crédit à Annabelle Lacombe Cardenas</p></div>
         </footer>
       </div>
     );

@@ -7,7 +7,7 @@ export default function Competences() {
     return(
         <div className="competences" id="competence">
         <h1>Compétences</h1>
-        <h2>Voicies certains de mes compétences</h2>
+        <h2>Voici certaines de mes compétences.</h2>
 
         <div className="cartesComp">
         {/* competencesData= importe le fichier json qui a un array d'objets qui 

@@ -1,0 +1,39 @@
+.Unprojet {
+  width: 85%;
+  height: 25rem;
+  background-color: #A8A8A8;
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-repeat: none;
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+}
+.Unprojet .secDesc {
+  background-color: rgba(255, 255, 255, 0.7490196078);
+  backdrop-filter: blur(5px);
+  min-height: 8rem;
+  padding: 0.8rem;
+  margin: 0.3rem;
+  border-radius: 15px;
+}
+.Unprojet .secDesc h2 {
+  font-style: italic;
+}
+.Unprojet .secDesc p {
+  font-size: 0.8rem;
+  color: #4f4f4f;
+}
+.Unprojet .secDesc a {
+  padding-top: 1rem;
+  text-decoration: none;
+  color: #000000;
+  font-size: 20px;
+  font-weight: 700;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}/*# sourceMappingURL=UnProjet.css.map */

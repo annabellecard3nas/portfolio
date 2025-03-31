@@ -1,6 +1,13 @@
 [
     {
         "id": "id",
+        "nom": "Movie-list",
+        "description": "Ce projet est un projet de fin d’études en technique d’intégration multimédia. L’objectif était d’apprendre de nouvelles technologies pendant deux mois.Ce projet consiste en un site permettant d’ajouter des films en favoris (bookmarks) et de modifier la note ainsi que le commentaire personnel sur son opinion du film.Pour ce site, j’ai mis en place un système d’authentification : il est nécessaire de créer un compte et d’être connecté pour accéder aux services du site. ",  
+        "image": "/images/movie-list.png", 
+        "url":"https://youtu.be/aoLNz9iu2tQ"
+    }
+    ,{
+        "id": "id",
         "nom": "Coffee shop/wordpress",
         "description": "Ce projet personnel consiste à développer un site WordPress pour un coffee shop. Pour sa réalisation, j'ai utilisé WordPress comme CMS, ainsi que JavaScript, PHP et MySQL pour apporter des fonctionnalités dynamiques. Ce projet met en avant non seulement l'aspect design, avec une interface simple et harmonieuse, mais aussi la programmation, en veillant à assurer une navigation fluide et une esthétique en accord avec les teintes chaleureuses du café.",  
         "image": "/images/coffeeshop.png", 

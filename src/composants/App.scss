@@ -1,5 +1,6 @@
 .appli {
   overflow: hidden;
+
   .topPage {
     background-color: #F2EFEF;
     height: 97vh;
@@ -20,7 +21,7 @@
         font-style: italic;
         font-weight: 500;
         color: #707070;
-        margin-left: 1rem;
+        margin-left: 2rem;
       }
 
       .menu {
@@ -42,7 +43,8 @@
         }
 
         button {
-          display: none; /* Hide burger menu button on larger screens */
+          display: none;
+          /* Hide burger menu button on larger screens */
         }
       }
     }
@@ -68,7 +70,8 @@
           ul {
             position: absolute;
             top: 0;
-            right: -25rem; /* Initially hidden off-screen */
+            right: -25rem;
+            /* Initially hidden off-screen */
             background-color: #707070c8;
             width: 25rem;
             height: 100vh;
@@ -78,12 +81,16 @@
             padding-right: 2rem;
             z-index: 7;
             backdrop-filter: blur(3px);
-            opacity: 0; /* Hidden by default */
-            transform: translateX(100%); /* Slide in from the right */
-            transition: transform 0.3s ease, opacity 0.3s ease-in; /* Smooth transition */
+            opacity: 0;
+            /* Hidden by default */
+            transform: translateX(100%);
+            /* Slide in from the right */
+            transition: transform 0.3s ease, opacity 0.3s ease-in;
+            /* Smooth transition */
 
             li {
               margin: 1rem 0;
+
               a {
                 text-decoration: none;
                 color: #ffffff;
@@ -93,14 +100,17 @@
           }
 
           &.open ul {
-            opacity: 1; /* Make it visible */
-            transform: translateX(0); /* Slide into view */
-            right: -1rem; /* Align to the right edge */
-            
+            opacity: 1;
+            /* Make it visible */
+            transform: translateX(0);
+            /* Slide into view */
+            right: -1rem;
+            /* Align to the right edge */
+
           }
 
-           /* When menu is closed, slide back to the right */
-           
+          /* When menu is closed, slide back to the right */
+
         }
       }
     }

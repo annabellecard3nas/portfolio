@@ -1,21 +1,14 @@
 [
-    {
-        "titre": "Languages",
-        "items": ["PHP", 
-                 "JavaScript", 
-                 "MySQL", 
-                 "C#",
-                 "CSS/HTMl"]
-    },
-    {
-        "titre": "Frameworks",
-        "items": ["React"]
-    },
-    {
-        "titre": "Autre",
-        "items": ["maya", 
-                 "photoshop",
-                  "after effect", 
-                  "touchdesigner"]
-    }
+  {
+    "titre": "Languages",
+    "items": ["PHP", "JavaScript", "MySQL", "C#", "CSS/HTMl"]
+  },
+  {
+    "titre": "Frameworks",
+    "items": ["React.js", "Nest.js"]
+  },
+  {
+    "titre": "Autre",
+    "items": ["maya", "photoshop", "after effect", "touchdesigner", "XD"]
+  }
 ]

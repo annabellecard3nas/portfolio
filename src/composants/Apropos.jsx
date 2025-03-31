@@ -13,7 +13,7 @@ function Apropos(){
             </div>
 
               <h1>Annabelle Lacombe Cardenas</h1>
-              <h3>Developpeuse Front-end</h3>
+              <h3>Développeuse Front-end</h3>
               <div className="descriptionMoi">
                 <h5>À propos de moi</h5>
                 <p>Je suis une développeuse front-end passionnée par la création de sites </p>

@@ -1,5 +1,4 @@
 import { useEffect, useState } from 'react';
-import { lireTout } from '../code/mesprojets';
 import './App.scss';
 import Competences from "./Competences";
 import Projets from './Projets';
@@ -11,15 +10,7 @@ import CloseIcon from "@mui/icons-material/Close";
 function App() {
   const [projets, setProjets] = useState([]);
   const [menuOpen, setMenuOpen] = useState(false);
-
-  async function lireProjets() {
-    const lireProjets = await lireTout();
-    setProjets(lireProjets);
-  }
-
-  useEffect(() => {
-    lireProjets();
-  }, []);
+ 
 
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
@@ -48,7 +39,7 @@ function App() {
             <ul>
               <li><a href='#aPropos'>À propos de moi</a></li>
               <li><a href='#competence'>Compétences</a></li>
-              <li><a href='#projets'>Projects</a></li>
+              <li><a href='#projets'>Projets</a></li>
               <li><a href='#contacter'>Me contacter</a></li>
             </ul>
           </div>

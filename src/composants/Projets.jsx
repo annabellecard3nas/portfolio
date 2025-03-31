@@ -10,7 +10,7 @@ function Projets() {
         <div className="titre">
         <div className="gauche">
         <h1>Mes Projets</h1>
-        <h2>Voicies certains de mes projets</h2>
+        <h2>Voici certains de mes projets.</h2>
         </div>
         </div>
         <div className="SecCarteProj">

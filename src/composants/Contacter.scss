@@ -32,11 +32,15 @@
   
         h1{
           color: #A8A8A8;
-          font-size: 13rem;
+          font-size: 10rem;
           font-style: italic;
           position:absolute;
           right: 2rem;
           bottom: 0rem;
+          @media screen and (max-width: 500px){
+            display: none;
+        
+          }
           
         }
   
@@ -51,4 +55,5 @@
   
         }
       }
+      
 }
